@@ -44,6 +44,13 @@
 
             for (int i = 0; i < myEmployees.Length; i++)
             {
+                Console.WriteLine($" Employee {myEmployees[i].Name} is paid {myEmployees[i].CalcPay()}");
+
+                
+            }
+
+            for (int i = 0; i < myEmployees.Length; i++)
+            {
                 Console.WriteLine(myEmployees[i]);
             }
         }
